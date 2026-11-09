@@ -1,3 +1,15 @@
 .idea/
 *.iml
 target/
+
+# OS
+.DS_Store
+
+# Frontend (ui/) — also covered by ui/.gitignore
+node_modules/
+ui/.next/
+ui/out/
+ui/next-env.d.ts
+*.tsbuildinfo
+.env*
+!.env.example
